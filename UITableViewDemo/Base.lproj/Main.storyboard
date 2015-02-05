@@ -24,11 +24,11 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" id="gnH-vm-FXt" customClass="HPTouchView">
-                                                    <rect key="frame" x="0.0" y="0.0" width="640" height="172.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="960" height="259"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="R9U-o7-Vlf">
-                                                            <rect key="frame" x="560" y="0.0" width="80" height="86"/>
+                                                            <rect key="frame" x="880" y="0.0" width="80" height="86"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -41,7 +41,7 @@
                                                             </connections>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tE3-sL-Akx">
-                                                            <rect key="frame" x="480" y="0.0" width="80" height="86"/>
+                                                            <rect key="frame" x="800" y="0.0" width="80" height="86"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="0.69624660329999999" green="0.1502207096" blue="0.1009095277" alpha="1" colorSpace="calibratedRGB"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
