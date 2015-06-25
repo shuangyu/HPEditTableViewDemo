@@ -14,10 +14,8 @@
 		674EFD4A19E78D100005A527 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 674EFD4919E78D100005A527 /* Images.xcassets */; };
 		674EFD4D19E78D100005A527 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 674EFD4B19E78D100005A527 /* LaunchScreen.xib */; };
 		674EFD5919E78D110005A527 /* UITableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 674EFD5819E78D110005A527 /* UITableViewDemoTests.m */; };
-		67B0470119E7DF5A00D47B26 /* HPEditTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B0470019E7DF5A00D47B26 /* HPEditTableView.m */; };
-		67B0470419E7DF7300D47B26 /* HPEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B0470319E7DF7300D47B26 /* HPEditTableViewCell.m */; };
-		67F8819119E8C5B8009204BE /* HPTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F8819019E8C5B8009204BE /* HPTouchView.m */; };
-		67F8819419E8E4AA009204BE /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F8819319E8E4AA009204BE /* MyCell.m */; };
+		67520D251B3B999500A1AF1B /* HPEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67520D241B3B999500A1AF1B /* HPEditCell.m */; };
+		67520D281B3B99F900A1AF1B /* HPAutoResizeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67520D271B3B99F900A1AF1B /* HPAutoResizeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +42,10 @@
 		674EFD5219E78D110005A527 /* UITableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		674EFD5719E78D110005A527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		674EFD5819E78D110005A527 /* UITableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewDemoTests.m; sourceTree = "<group>"; };
-		67B046FF19E7DF5A00D47B26 /* HPEditTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPEditTableView.h; sourceTree = "<group>"; };
-		67B0470019E7DF5A00D47B26 /* HPEditTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPEditTableView.m; sourceTree = "<group>"; };
-		67B0470219E7DF7300D47B26 /* HPEditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPEditTableViewCell.h; sourceTree = "<group>"; };
-		67B0470319E7DF7300D47B26 /* HPEditTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPEditTableViewCell.m; sourceTree = "<group>"; };
-		67F8818F19E8C5B8009204BE /* HPTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTouchView.h; sourceTree = "<group>"; };
-		67F8819019E8C5B8009204BE /* HPTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTouchView.m; sourceTree = "<group>"; };
-		67F8819219E8E4AA009204BE /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
-		67F8819319E8E4AA009204BE /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		67520D231B3B999500A1AF1B /* HPEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPEditCell.h; sourceTree = "<group>"; };
+		67520D241B3B999500A1AF1B /* HPEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPEditCell.m; sourceTree = "<group>"; };
+		67520D261B3B99F900A1AF1B /* HPAutoResizeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPAutoResizeCell.h; sourceTree = "<group>"; };
+		67520D271B3B99F900A1AF1B /* HPAutoResizeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPAutoResizeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +87,10 @@
 		674EFD3B19E78D100005A527 /* UITableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				67B046FF19E7DF5A00D47B26 /* HPEditTableView.h */,
-				67B0470019E7DF5A00D47B26 /* HPEditTableView.m */,
-				67B0470219E7DF7300D47B26 /* HPEditTableViewCell.h */,
-				67B0470319E7DF7300D47B26 /* HPEditTableViewCell.m */,
-				67F8818F19E8C5B8009204BE /* HPTouchView.h */,
-				67F8819019E8C5B8009204BE /* HPTouchView.m */,
+				67520D261B3B99F900A1AF1B /* HPAutoResizeCell.h */,
+				67520D271B3B99F900A1AF1B /* HPAutoResizeCell.m */,
+				67520D231B3B999500A1AF1B /* HPEditCell.h */,
+				67520D241B3B999500A1AF1B /* HPEditCell.m */,
 				674EFD4019E78D100005A527 /* AppDelegate.h */,
 				674EFD4119E78D100005A527 /* AppDelegate.m */,
 				674EFD4319E78D100005A527 /* ViewController.h */,
@@ -107,8 +99,6 @@
 				674EFD4919E78D100005A527 /* Images.xcassets */,
 				674EFD4B19E78D100005A527 /* LaunchScreen.xib */,
 				674EFD3C19E78D100005A527 /* Supporting Files */,
-				67F8819219E8E4AA009204BE /* MyCell.h */,
-				67F8819319E8E4AA009204BE /* MyCell.m */,
 			);
 			path = UITableViewDemo;
 			sourceTree = "<group>";
@@ -241,11 +231,9 @@
 			files = (
 				674EFD4519E78D100005A527 /* ViewController.m in Sources */,
 				674EFD4219E78D100005A527 /* AppDelegate.m in Sources */,
-				67B0470119E7DF5A00D47B26 /* HPEditTableView.m in Sources */,
-				67B0470419E7DF7300D47B26 /* HPEditTableViewCell.m in Sources */,
-				67F8819119E8C5B8009204BE /* HPTouchView.m in Sources */,
+				67520D281B3B99F900A1AF1B /* HPAutoResizeCell.m in Sources */,
+				67520D251B3B999500A1AF1B /* HPEditCell.m in Sources */,
 				674EFD3F19E78D100005A527 /* main.m in Sources */,
-				67F8819419E8E4AA009204BE /* MyCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

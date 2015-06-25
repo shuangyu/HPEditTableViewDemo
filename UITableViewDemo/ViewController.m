@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "HPEditCell.h"
 
-@interface ViewController () <UITabBarDelegate, UITableViewDataSource>
+@interface ViewController () <UITabBarDelegate, UITableViewDataSource, HPCallBackProtocol>
 
 @property (nonatomic, weak) IBOutlet UITableView *tableView;
 
@@ -35,13 +36,22 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    HPEditCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
+    cell.delegate  = self;
+    cell.tableView = tableView;
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSLog(@"%ld", indexPath.row);
+}
+
+#pragma mark - HPCallBackProtocol
+
+- (void)obj:(id)obj respondsToAction:(id)actionInfo
+{
+    NSLog(@"%@", actionInfo);
 }
 
 

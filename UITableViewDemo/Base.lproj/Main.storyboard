@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6249" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,18 +17,19 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" rowHeight="87" id="TrM-Ai-FTs" customClass="MyCell">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="dnD-8b-uM1" customClass="HPEditCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="TrM-Ai-FTs" id="oDp-kO-QxK">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dnD-8b-uM1" id="6CZ-Ib-op7">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" id="gnH-vm-FXt" customClass="HPTouchView">
-                                                    <rect key="frame" x="0.0" y="0.0" width="960" height="259"/>
-                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                <view contentMode="scaleToFill" id="okh-ta-rBv" userLabel="bottomView">
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="R9U-o7-Vlf">
-                                                            <rect key="frame" x="880" y="0.0" width="80" height="86"/>
+                                                            <rect key="frame" x="240" y="0.0" width="80" height="86"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -36,12 +37,9 @@
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
-                                                            <connections>
-                                                                <action selector="blockButtonClicked:" destination="TrM-Ai-FTs" eventType="touchUpInside" id="aX4-vI-0Ey"/>
-                                                            </connections>
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tE3-sL-Akx">
-                                                            <rect key="frame" x="800" y="0.0" width="80" height="86"/>
+                                                            <rect key="frame" x="160" y="0.0" width="80" height="86"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                                             <color key="backgroundColor" red="0.69624660329999999" green="0.1502207096" blue="0.1009095277" alpha="1" colorSpace="calibratedRGB"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -49,28 +47,31 @@
                                                                 <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                             </state>
-                                                            <connections>
-                                                                <action selector="deleteButtonClicked:" destination="TrM-Ai-FTs" eventType="touchUpInside" id="giB-eA-fF9"/>
-                                                            </connections>
                                                         </button>
-                                                        <view contentMode="scaleToFill" id="IYH-He-O3a">
-                                                            <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
-                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                            <color key="backgroundColor" red="0.20784313730000001" green="0.40000000000000002" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
-                                                        </view>
+                                                        <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="QKf-bS-86Q">
+                                                            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                            <subviews>
+                                                                <view contentMode="scaleToFill" id="ehP-UA-sdA" userLabel="topView">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                                    <color key="backgroundColor" red="0.20784313730000001" green="0.40000000000000002" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                                                                </view>
+                                                            </subviews>
+                                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        </scrollView>
                                                     </subviews>
-                                                    <color key="backgroundColor" red="0.1529411765" green="0.81960784310000001" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <connections>
-                                                        <outlet property="delegate" destination="TrM-Ai-FTs" id="OTJ-tZ-Usn"/>
-                                                    </connections>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </view>
                                             </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="bottomView" destination="gnH-vm-FXt" id="top-qI-afv"/>
-                                            <outlet property="topView" destination="IYH-He-O3a" id="8rt-5D-NF0"/>
-                                            <outletCollection property="editButtons" destination="R9U-o7-Vlf" id="PtT-z2-N7R"/>
-                                            <outletCollection property="editButtons" destination="tE3-sL-Akx" id="ied-Og-E9x"/>
+                                            <outlet property="autoResizeContentView" destination="okh-ta-rBv" id="Rud-JO-cKy"/>
+                                            <outlet property="editCellContentView" destination="ehP-UA-sdA" id="fNC-aB-1qm"/>
+                                            <outlet property="scrollView" destination="QKf-bS-86Q" id="0EW-hU-KAr"/>
+                                            <outletCollection property="rightButtons" destination="tE3-sL-Akx" id="0v2-TZ-0UX"/>
+                                            <outletCollection property="rightButtons" destination="R9U-o7-Vlf" id="zcY-nl-9CV"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
