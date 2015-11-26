@@ -14,8 +14,13 @@
 		674EFD4A19E78D100005A527 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 674EFD4919E78D100005A527 /* Images.xcassets */; };
 		674EFD4D19E78D100005A527 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 674EFD4B19E78D100005A527 /* LaunchScreen.xib */; };
 		674EFD5919E78D110005A527 /* UITableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 674EFD5819E78D110005A527 /* UITableViewDemoTests.m */; };
-		67520D251B3B999500A1AF1B /* HPEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67520D241B3B999500A1AF1B /* HPEditCell.m */; };
-		67520D281B3B99F900A1AF1B /* HPAutoResizeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67520D271B3B99F900A1AF1B /* HPAutoResizeCell.m */; };
+		676C17B31C0739FB002D690E /* NSBKeyframeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 676C17B01C0739FB002D690E /* NSBKeyframeAnimation.m */; };
+		676C17B41C0739FB002D690E /* NSBKeyframeAnimationFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 676C17B11C0739FB002D690E /* NSBKeyframeAnimationFunctions.c */; };
+		67C05FD21C0738890046FDB7 /* HPAutoResizeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C05FC81C0738890046FDB7 /* HPAutoResizeCell.m */; };
+		67C05FD31C0738890046FDB7 /* HPEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C05FCB1C0738890046FDB7 /* HPEditCell.m */; };
+		67C05FD41C0738890046FDB7 /* HPLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C05FCE1C0738890046FDB7 /* HPLine.m */; };
+		67C05FD51C0738890046FDB7 /* HPShadowLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C05FD01C0738890046FDB7 /* HPShadowLine.m */; };
+		67C05FD81C0738E10046FDB7 /* UIColor+ColorExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C05FD71C0738E10046FDB7 /* UIColor+ColorExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +47,22 @@
 		674EFD5219E78D110005A527 /* UITableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		674EFD5719E78D110005A527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		674EFD5819E78D110005A527 /* UITableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewDemoTests.m; sourceTree = "<group>"; };
-		67520D231B3B999500A1AF1B /* HPEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPEditCell.h; sourceTree = "<group>"; };
-		67520D241B3B999500A1AF1B /* HPEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPEditCell.m; sourceTree = "<group>"; };
-		67520D261B3B99F900A1AF1B /* HPAutoResizeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPAutoResizeCell.h; sourceTree = "<group>"; };
-		67520D271B3B99F900A1AF1B /* HPAutoResizeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPAutoResizeCell.m; sourceTree = "<group>"; };
+		676C17AF1C0739FB002D690E /* NSBKeyframeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBKeyframeAnimation.h; sourceTree = "<group>"; };
+		676C17B01C0739FB002D690E /* NSBKeyframeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBKeyframeAnimation.m; sourceTree = "<group>"; };
+		676C17B11C0739FB002D690E /* NSBKeyframeAnimationFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NSBKeyframeAnimationFunctions.c; sourceTree = "<group>"; };
+		676C17B21C0739FB002D690E /* NSBKeyframeAnimationFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBKeyframeAnimationFunctions.h; sourceTree = "<group>"; };
+		67C05FC71C0738890046FDB7 /* HPAutoResizeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPAutoResizeCell.h; sourceTree = "<group>"; };
+		67C05FC81C0738890046FDB7 /* HPAutoResizeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPAutoResizeCell.m; sourceTree = "<group>"; };
+		67C05FC91C0738890046FDB7 /* HPCommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCommonMacro.h; sourceTree = "<group>"; };
+		67C05FCA1C0738890046FDB7 /* HPEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPEditCell.h; sourceTree = "<group>"; };
+		67C05FCB1C0738890046FDB7 /* HPEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPEditCell.m; sourceTree = "<group>"; };
+		67C05FCD1C0738890046FDB7 /* HPLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPLine.h; sourceTree = "<group>"; };
+		67C05FCE1C0738890046FDB7 /* HPLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPLine.m; sourceTree = "<group>"; };
+		67C05FCF1C0738890046FDB7 /* HPShadowLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPShadowLine.h; sourceTree = "<group>"; };
+		67C05FD01C0738890046FDB7 /* HPShadowLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPShadowLine.m; sourceTree = "<group>"; };
+		67C05FD61C0738E10046FDB7 /* UIColor+ColorExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorExt.h"; sourceTree = "<group>"; };
+		67C05FD71C0738E10046FDB7 /* UIColor+ColorExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorExt.m"; sourceTree = "<group>"; };
+		67C05FD91C0739250046FDB7 /* HPCallBackProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPCallBackProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +104,9 @@
 		674EFD3B19E78D100005A527 /* UITableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				67520D261B3B99F900A1AF1B /* HPAutoResizeCell.h */,
-				67520D271B3B99F900A1AF1B /* HPAutoResizeCell.m */,
-				67520D231B3B999500A1AF1B /* HPEditCell.h */,
-				67520D241B3B999500A1AF1B /* HPEditCell.m */,
+				676C17AE1C0739FB002D690E /* NSBKeyframeAnimation */,
+				67C05FC61C0738890046FDB7 /* PluginClasses */,
+				67C05FD11C0738890046FDB7 /* Resources */,
 				674EFD4019E78D100005A527 /* AppDelegate.h */,
 				674EFD4119E78D100005A527 /* AppDelegate.m */,
 				674EFD4319E78D100005A527 /* ViewController.h */,
@@ -127,6 +143,51 @@
 				674EFD5719E78D110005A527 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		676C17AE1C0739FB002D690E /* NSBKeyframeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				676C17AF1C0739FB002D690E /* NSBKeyframeAnimation.h */,
+				676C17B01C0739FB002D690E /* NSBKeyframeAnimation.m */,
+				676C17B11C0739FB002D690E /* NSBKeyframeAnimationFunctions.c */,
+				676C17B21C0739FB002D690E /* NSBKeyframeAnimationFunctions.h */,
+			);
+			path = NSBKeyframeAnimation;
+			sourceTree = "<group>";
+		};
+		67C05FC61C0738890046FDB7 /* PluginClasses */ = {
+			isa = PBXGroup;
+			children = (
+				67C05FD91C0739250046FDB7 /* HPCallBackProtocol.h */,
+				67C05FC71C0738890046FDB7 /* HPAutoResizeCell.h */,
+				67C05FC81C0738890046FDB7 /* HPAutoResizeCell.m */,
+				67C05FC91C0738890046FDB7 /* HPCommonMacro.h */,
+				67C05FCA1C0738890046FDB7 /* HPEditCell.h */,
+				67C05FCB1C0738890046FDB7 /* HPEditCell.m */,
+				67C05FD61C0738E10046FDB7 /* UIColor+ColorExt.h */,
+				67C05FD71C0738E10046FDB7 /* UIColor+ColorExt.m */,
+				67C05FCC1C0738890046FDB7 /* HPLineView */,
+			);
+			path = PluginClasses;
+			sourceTree = "<group>";
+		};
+		67C05FCC1C0738890046FDB7 /* HPLineView */ = {
+			isa = PBXGroup;
+			children = (
+				67C05FCD1C0738890046FDB7 /* HPLine.h */,
+				67C05FCE1C0738890046FDB7 /* HPLine.m */,
+				67C05FCF1C0738890046FDB7 /* HPShadowLine.h */,
+				67C05FD01C0738890046FDB7 /* HPShadowLine.m */,
+			);
+			path = HPLineView;
+			sourceTree = "<group>";
+		};
+		67C05FD11C0738890046FDB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,11 +290,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C05FD21C0738890046FDB7 /* HPAutoResizeCell.m in Sources */,
+				676C17B31C0739FB002D690E /* NSBKeyframeAnimation.m in Sources */,
+				676C17B41C0739FB002D690E /* NSBKeyframeAnimationFunctions.c in Sources */,
 				674EFD4519E78D100005A527 /* ViewController.m in Sources */,
+				67C05FD51C0738890046FDB7 /* HPShadowLine.m in Sources */,
 				674EFD4219E78D100005A527 /* AppDelegate.m in Sources */,
-				67520D281B3B99F900A1AF1B /* HPAutoResizeCell.m in Sources */,
-				67520D251B3B999500A1AF1B /* HPEditCell.m in Sources */,
+				67C05FD31C0738890046FDB7 /* HPEditCell.m in Sources */,
+				67C05FD81C0738E10046FDB7 /* UIColor+ColorExt.m in Sources */,
 				674EFD3F19E78D100005A527 /* main.m in Sources */,
+				67C05FD41C0738890046FDB7 /* HPLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
